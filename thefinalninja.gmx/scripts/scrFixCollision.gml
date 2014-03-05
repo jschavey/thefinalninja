@@ -1,4 +1,6 @@
-if( collision_point( self.x, self.y + 40, obj_ground, true, false ) ) {
+//  Why do we still need the +40?
+
+if( collision_point( self.x, self.y + ( ( sprite_get_height( self ) / 2 ) + 40 ), obj_ground, true, false ) ) {
     x = xprevious //set x to what it was in the previous step
     y = yprevious //set y to what it was in the previous step
     //move_contact_all(direction,-1); //move in the direction you were going until you hit smoothly

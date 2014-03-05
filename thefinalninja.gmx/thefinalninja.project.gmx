@@ -56,6 +56,7 @@
     <scripts name="Shared">
       <script>scripts\scrFixCollision.gml</script>
       <script>scripts\scrGetGroundY.gml</script>
+      <script>scripts\scrCenterObject.gml</script>
     </scripts>
   </scripts>
   <objects name="objects">
