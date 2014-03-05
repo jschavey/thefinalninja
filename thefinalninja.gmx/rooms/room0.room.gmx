@@ -152,7 +152,6 @@
     <instance objName="obj_inv_boundary" x="1984" y="544" name="inst_297A914E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_inv_boundary" x="0" y="544" name="inst_E3FD3108" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ground" x="2048" y="544" name="inst_DF01242E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_sound_controller" x="32" y="32" name="inst_8A028B46" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy_controller" x="128" y="32" name="inst_6EF6CD78" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_game_controller" x="224" y="32" name="inst_89E44346" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
