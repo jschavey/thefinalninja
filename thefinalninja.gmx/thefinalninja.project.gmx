@@ -48,7 +48,14 @@
       <script>scripts\scrDrawBowman.gml</script>
       <script>scripts\scrInitBowman.gml</script>
     </scripts>
-    <script>scripts\script10.gml</script>
+    <scripts name="Ninja">
+      <script>scripts\scrPlayerMove.gml</script>
+      <script>scripts\scrPlayerInput.gml</script>
+      <script>scripts\scrPlayerDraw.gml</script>
+    </scripts>
+    <scripts name="Shared">
+      <script>scripts\scrFixCollision.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <object>objects\obj_block</object>
