@@ -1,24 +1,21 @@
 //  Ninja collision event
 
-move_bounce_all(false);
-
 //  Determine if ninja is facing the right way
-var enemyLocation = self.x - other.x;
+var ninjaLocation = self.x - obj_ninja.x;
 var compare;        //  Direction needed for collision with weapon
 
-if( sign( enemyLocation) < 1 ) {
-    compare = 270;
+if( ninjaLocation < 0 ) {
+    compare = obj_ninja.Left;
 } else {
-    compare = 0;
+    compare = obj_ninja.Right;
 }
 
-if (obj_ninja.Animation == obj_ninja.Melee
-    && compare == obj_ninja.direction) {
+if (obj_ninja.Animation == obj_ninja.Melee && compare == obj_ninja.Facing) {
     score += 10;
     // play sound
     instance_destroy();
 } else {
-    if (Animation == Melee) {
+    if (self.Animation == self.Melee) {
         health -= 1;
     }
 }
