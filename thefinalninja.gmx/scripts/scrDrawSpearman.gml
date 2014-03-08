@@ -29,8 +29,8 @@ if ( Update ) {                 // start of new sprite animation
 } else {                        // step through sprite animation
     switch ( Animation ) {
         case Melee:
-            image_index += (10/30);
-            if ( image_index >= (Melee + Facing + 4) ) {
+            image_index += (5/30);
+            if ( image_index > (Melee + Facing + 1) ) {
                 Update = true; }
             break;
         case Moving:

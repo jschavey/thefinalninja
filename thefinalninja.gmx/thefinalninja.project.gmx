@@ -37,7 +37,6 @@
       <script>scripts\scrDrawSpearman.gml</script>
       <script>scripts\scrSpearmanHunt.gml</script>
       <script>scripts\scrCollideWithNinja.gml</script>
-      <script>scripts\scrDebugSpearman.gml</script>
     </scripts>
     <scripts name="Enemy Controller">
       <script>scripts\scrInitEnemyController.gml</script>

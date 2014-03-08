@@ -4,6 +4,7 @@ if ( Update ) {                 // start of new sprite animation
     switch ( Animation ) {
         case Standing:
             image_index = Standing + Facing;
+            image_speed = 0;
             Update = false;
             break;
         case Melee:
