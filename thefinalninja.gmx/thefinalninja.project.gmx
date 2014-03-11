@@ -9,7 +9,6 @@
     <sound>sound\sound2</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\spr_inv_boundry</sprite>
     <sprite>sprites\spr_ground</sprite>
     <sprite>sprites\spr_groundMask</sprite>
     <sprites name="ninja">
@@ -18,7 +17,6 @@
       <sprite>sprites\spr_nin_jumpL</sprite>
       <sprite>sprites\spr_nin_jump</sprite>
     </sprites>
-    <sprite>sprites\sprArcherer</sprite>
     <sprite>sprites\sprite9</sprite>
     <sprite>sprites\spr_bowman</sprite>
     <sprite>sprites\spr_arrow</sprite>
@@ -66,7 +64,6 @@
     <object>objects\obj_ninja</object>
     <object>objects\obj_spearman</object>
     <object>objects\obj_bowman</object>
-    <object>objects\obj_inv_boundary</object>
     <object>objects\obj_sound_controller</object>
     <object>objects\obj_ground</object>
     <object>objects\obj_enemy_controller</object>
