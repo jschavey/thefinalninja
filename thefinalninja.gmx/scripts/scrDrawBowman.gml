@@ -10,9 +10,9 @@ if ( speed > 0) {
     Animation = Moving;
 }
 
-//  Animate Melee
-if ( distance_to_object(obj_ninja) < 45) {
-    Animation = Melee;
+//  Animate Attack
+if ( distance_to_object(obj_ninja) < 130) {
+    Animation = Ranged;
 }
 
 if ( Update ) {                 // start of new sprite animation
@@ -21,8 +21,8 @@ if ( Update ) {                 // start of new sprite animation
             image_index = Standing + Facing;
             Update = false;
             break;
-        case Melee:
-            image_index = Melee + Facing; 
+        case Ranged:
+            image_index = Ranged + Facing; 
             Update = false;
             break;
         case Moving:
@@ -38,9 +38,9 @@ if ( Update ) {                 // start of new sprite animation
     switch ( Animation ) {
         case Standing:
             break;
-        case Melee:
-            image_index += (10/30);
-            if ( image_index >= (Melee + Facing + 4) ) {
+        case Ranged:
+            image_index += (5/30);
+            if ( image_index >= (Ranged + Facing + 4) ) {
                 Animation = Standing;
                 Update = true; }
             break;

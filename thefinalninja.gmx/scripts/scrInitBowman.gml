@@ -9,8 +9,8 @@ Facing = Right
 image_speed = 0
 Update = true;      // unit needs to be updated 
 Standing = 0        // subimage start frames
-Melee = 1
-Moving = 6
+Ranged = 5
+Moving = 1
 Jumping = 6         // jump uses move until we get the art
 Animation = Standing
 

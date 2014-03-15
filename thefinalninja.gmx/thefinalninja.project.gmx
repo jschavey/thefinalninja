@@ -39,6 +39,7 @@
     <scripts name="Enemy Controller">
       <script>scripts\scrInitEnemyController.gml</script>
       <script>scripts\scrSpawnSpearman.gml</script>
+      <script>scripts\scrSpawnBowman.gml</script>
       <script>scripts\scrDislodgeEnemies.gml</script>
     </scripts>
     <scripts name="Game Controller">
@@ -47,6 +48,8 @@
     <scripts name="Bowman">
       <script>scripts\scrDrawBowman.gml</script>
       <script>scripts\scrInitBowman.gml</script>
+      <script>scripts\scrBowmanHunt.gml</script>
+      <script>scripts\scrBowmanCollideWithNinja.gml</script>
     </scripts>
     <scripts name="Ninja">
       <script>scripts\scrPlayerMove.gml</script>
@@ -58,6 +61,11 @@
       <script>scripts\scrGetGroundY.gml</script>
       <script>scripts\scrCenterObject.gml</script>
     </scripts>
+    <scripts name="Arrow">
+      <script>scripts\scrInitArrow.gml</script>
+      <script>scripts\scrArrowCollideWithNinja.gml</script>
+      <script>scripts\scrDrawArrow.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <object>objects\obj_block</object>
@@ -68,6 +76,7 @@
     <object>objects\obj_ground</object>
     <object>objects\obj_enemy_controller</object>
     <object>objects\obj_game_controller</object>
+    <object>objects\obj_Arrow</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\tm_spearman_wave1</timeline>
