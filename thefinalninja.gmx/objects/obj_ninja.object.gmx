@@ -264,9 +264,9 @@ Animation = Standing
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>background_x[0] = view_xview[0]/1;
-background_x[1] = view_xview[0]/2;
-background_x[2] = view_xview[0]/3;
+            <string>background_x[0] = view_xview[0]/-15;
+background_x[1] = view_xview[0]/-10;
+background_x[2] = view_xview[0]/-5;
 
 </string>
           </argument>
