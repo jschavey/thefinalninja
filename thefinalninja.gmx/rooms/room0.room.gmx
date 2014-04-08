@@ -57,9 +57,12 @@
     <instance objName="obj_ground" x="3264" y="512" name="inst_E1DA1353" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ground" x="4256" y="512" name="inst_C35B9914" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ground" x="5248" y="512" name="inst_2DD6ADA0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ninja" x="2624" y="512" name="inst_2EF6BF28" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ground" x="288" y="512" name="inst_4A0E8C95" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+<<<<<<< HEAD
     <instance objName="obj_sound_controller" x="192" y="160" name="inst_62BA227B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+=======
+    <instance objName="obj_ninja" x="2208" y="512" name="inst_08B4CB34" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+>>>>>>> 53c47b210b0ae7616b1c1051dfe05da9ac5e3682
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

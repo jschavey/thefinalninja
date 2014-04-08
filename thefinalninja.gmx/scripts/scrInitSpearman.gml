@@ -2,7 +2,7 @@ gravity = 2;        // init gravity
 
 // data structures to handle facing
 Right = 0
-Left = 6           // subimage offset
+Left = 6        // subimage offset
 Facing = Right
 
 // data structures to handle animation

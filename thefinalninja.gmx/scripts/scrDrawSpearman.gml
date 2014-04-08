@@ -29,7 +29,7 @@ if ( Update ) {                 // start of new sprite animation
 } else {                        // step through sprite animation
     switch ( Animation ) {
         case Melee:
-            image_index += (5/30);
+            image_index += (5/100);
             if ( image_index > (Melee + Facing + 1) ) {
                 Update = true; }
             break;
